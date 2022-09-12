@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@drawable/fondogradiente"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instituto Tecnologico de tepic"
+            android:id="@+id/tec"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LADM"
+            android:layout_marginLeft="150dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imagenes"
+            android:id="@+id/imagen"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Musica"
+            android:id="@+id/musica"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gif"
+            android:id="@+id/gif"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:id="@+id/videos"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animacion"
+            android:id="@+id/animacion"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logoandroid" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(C)Jesus Daniel Gutierrez Aguirre"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chirstian Alexis Perez Hernandez"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>
