@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jesus/Documents/LADM_PROYECTS/app/src/main/res/layout/activity_animacion.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus/Documents/LADM_PROYECTS/app/src/main/res/layout/activity_gif.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/Jesus/Documents/LADM_PROYECTS/app/src/main/res/layout/activity_imagen.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus/Documents/LADM_PROYECTS/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus/Documents/LADM_PROYECTS/app/src/main/res/layout/activity_videos.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/fondogradiente.xml" value="0.1215" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17329255861365953" />
       </map>

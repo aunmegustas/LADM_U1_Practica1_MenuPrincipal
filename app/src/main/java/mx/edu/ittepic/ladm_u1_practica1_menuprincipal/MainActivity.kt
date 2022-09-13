@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             var imagen = Intent(this, Imagen::class.java)
             startActivity(imagen)
         }
+
         binding.musica.setOnClickListener {
             AlertDialog.Builder(this)
                 .setTitle("Apartado de Música")
@@ -40,11 +41,20 @@ class MainActivity : AppCompatActivity() {
 
         }
         binding.gif.setOnClickListener {
+            var gif = Intent(this, Gif::class.java)
+            startActivity(gif)
 
+        }
+        binding.videos.setOnClickListener {
+            var videos= Intent(this,Videos::class.java)
+            startActivity(videos)
         }
         binding.animacion.setOnClickListener {
+            var animacion= Intent(this, Animacion::class.java)
+            startActivity(animacion)
 
         }
+
 
     }
 
